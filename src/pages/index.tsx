@@ -2,6 +2,9 @@ import React from "react"
 import { Stack, Text, Link, FontWeights } from "office-ui-fabric-react"
 import "./index.css"
 
+import { initializeIcons } from '@uifabric/icons';
+initializeIcons();
+
 const boldStyle = { root: { fontWeight: FontWeights.semibold } }
 
 const App: React.FunctionComponent = () => {
